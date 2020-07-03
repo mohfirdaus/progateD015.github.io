@@ -1,0 +1,149 @@
+@media all and (max-width: 1000px) {
+
+  .heading h2 {
+    font-size: 20px;
+  }
+.header-right {
+  display: none;
+}
+
+  .menu-icon {
+    display: block;
+  }
+
+.main-wrapper p {
+  padding-left: 30px;
+  padding-top: 30px;
+  width: 50%;
+  height: 145px;
+  text-align: center;
+  font-size: 15px;
+}
+
+
+.majalah {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.majalah img {
+  padding-left: 300px;
+}
+
+.majalah p {
+  font-size: 30px;
+  padding-top: 0;
+  padding-left: 200px;
+  font-family: sans-serif;
+  color: black;
+}
+
+@media all and (max-width: 670px) {
+
+  .header-left p {
+    float: right;
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+  footer p {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    margin: auto;
+    text-align: center;
+  }
+
+  .header-right {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .logo-layanan-4 {
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    display: block;
+  }
+
+  .logo-layanan-3 {
+    width: 100%;
+    margin-bottom: 10px;
+    display: block;
+  }
+
+  .logo-layanan-32 {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: block;
+  }
+
+  .logo-layanan-33 {
+    width:50%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+    margin-top: 15px;
+  }
+
+.kecamatan {
+  padding-right: 10px;
+}
+
+.kode {
+  width: 120px;
+  height: 60px;
+  padding: auto;
+}
+.huruf-kode {
+  font-size: 13px;
+  text-align: center;
+}
+.main-wrapper {
+  width: 100%;
+  height: 344px;
+  margin-left: auto;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(255, 255, 255, 1));
+  background-size: cover;
+  opacity: 0.7;
+  color: white;
+  position: relative;
+  z-index: 9;
+}
+
+.main-wrapper p {
+  padding-left: 20px;
+  padding-top: 10px;
+  width: 25%;
+  height: 300px;
+  font-size: 13px;
+}
+
+.majalah {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.majalah img {
+  padding-left: 10px;
+  width:40%;
+  float: right;
+}
+
+.majalah p {
+  font-size: 30px;
+  padding-top: 180px;
+  padding-left: 300px;
+  font-family: sans-serif;
+  color: black;
+}
+}

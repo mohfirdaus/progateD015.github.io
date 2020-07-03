@@ -1,0 +1,263 @@
+*{
+ box-sizing: border-box;
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+ margin: 0;
+ padding: 0;
+}
+
+.jenis-layanan-wrapper, .dinas-wrapper, .kecamatan-wrapper {
+ border-bottom: 1px solid #eee;
+}
+
+header {
+  height: 50px;
+  width: 100%;
+  background: linear-gradient(to right, #fdc830, #f37335);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+.logo {
+  width: 100px;
+  margin-top: 0px;
+  margin-left: 5px;
+}
+.header-left {
+  float: left;
+}
+.header-left p {
+  float: right;
+  font-size: 25px;
+  font-family:"Open Sans";
+  font-weight: bold;
+  color:white;
+  padding: 5px 5px;
+  letter-spacing:3px;
+}
+.header-right {
+  float: right;
+}
+.header-right a {
+  padding: 15px 10px;
+  font-weight: bold;
+  font-family: "Open Sans";
+  font-size: 14px;
+  color: #fff;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+  text-decoration: none;
+}
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+body {
+  font-family: "Open Sans";
+  width: 100%;
+}
+
+.layanan-wrapper {
+  background-color: ;
+}
+
+.container p {
+  text-decoration: none;
+}
+
+.layanan-wrapper, .dinas-wrapper, .kecamatan-wrapper {
+  height: 420px;
+  border-bottom: 1px solid #eee;
+}
+
+.jenis-layanan {
+  float: left;
+  width: 25%;
+}
+
+.logo-layanan-4 {
+  width: 40%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.logo-layanan-3 {
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.logo-layanan-32 {
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 5px;
+  margin-bottom: 0;
+  display: block;
+}
+
+.logo-layanan-33 {
+  width: 30%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  display: block;
+}
+
+.kode {
+  padding: 10px 0;
+  display: block;
+  width: 200px;
+  text-align: center;
+  text-decoration: none;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  background: linear-gradient(to right, #fff, #f7b733)
+}
+.kode :hover {
+    background-color: white;
+    width: 200px;
+  }
+
+.huruf-kode {
+  color: #5f5d60;
+  font-weight: bold;
+}
+
+.heading {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
+}
+
+.heading h2 {
+  padding-top: 40px;
+  padding-bottom: 10px;
+  color: #5f5d60;
+  text-align: center;
+  font-weight: bold;
+}
+
+.heading p {
+  padding-top: 10px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+  padding-right: 20px;
+  text-align: center;
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  margin: 8px 0;
+  padding-right: 10px;
+  display: none;
+}
+
+
+.gambar {
+  height: 400px;
+  width: 100%;
+
+}
+
+.main-wrapper {
+  width: auto;
+  height: 350px;
+  margin-left: 50px;
+  margin-top: -170px;
+  margin-right: 50px;
+  /* background-color: black; */
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(255, 255, 255, 1));
+  background-size: cover;
+  opacity: 0.7;
+  color: white;
+  position: relative;
+  z-index: 9;
+}
+
+.main-wrapper p {
+  padding-left: 100px;
+  padding-top: 30px;
+  width: 642px;
+  height: 145px;
+  text-align: center;
+}
+
+
+.majalah {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.majalah img {
+  padding-right: 20px;
+  margin-right: 30px;
+  float: right;
+}
+
+.majalah p {
+  font-size: 30px;
+  padding-top: 230px;
+  padding-left: 200px;
+  font-family: "Open Sans";
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+
+.dinas-wrapper {
+  margin: 20px 0;
+}
+
+.dinas {
+  float: left;
+  width: 33%;
+  margin: 0 auto;
+}
+
+.kecamatan-wrapper {
+  margin: 20px 0;
+}
+
+.kecamatan {
+  float: left;
+  width: 33%;
+}
+
+.logo-footer {
+  width: 50px;
+  margin: 0 10px;
+  float: left;
+}
+
+footer p {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  text-align: center;
+  display: block;
+}
+
+footer {
+  background: linear-gradient(to right, #fdc830, #f37335);
+  position: fixed;
+  height: 50px;
+  width: 100%;
+  bottom: 0;
+}
